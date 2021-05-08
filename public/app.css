@@ -1,0 +1,55 @@
+body{
+  padding-top: 65px;
+}
+.black{
+    background: black;
+    color: #777;
+    font-size: larger;
+}
+
+.header{
+    color: black;
+}
+
+#wrapper {
+  display: flex;
+}
+#left {
+  flex: 0 0 40%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 10px;
+}
+#right {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#leftform {
+  flex: 0 0 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 10px;
+}
+#rightform {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+/*.carousel .item{
+    min-height: 280px;  Prevent carousel from being distorted if for some reason image doesn't load 
+}*/
+.carousel .item img{
+    margin: 10px auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}

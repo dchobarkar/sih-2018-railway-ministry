@@ -1,0 +1,28 @@
+<% include partials//header %>
+<div class="container">
+<form class="form-inline" action="/irctcTourism/search" method="GET">
+    <div class="form-group">
+        <label class="sr-only" for="inputCity">City</label>
+        <input id="inputCity" class="form-control" type="text" size="50" placeholder="City" autocomplete="on" required="true" value="<%=searchResthouse.resthouseData.city %>">
+    </div>
+    <div class="form-group">
+        <label class="sr-only" for="inputcheckIn">Check In</label>
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control" min="2018/04/28" name="checkIn" id="inputcheckIn" placeholder="Check In" required="true" value=" <%= searchResthouse.resthouseData.checkIn %>">
+    </div>
+    <div class="form-group">
+        <label class="sr-only" for="inputCheckOut">Check Out</label>
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control"  id="inputCheckOut" name="checkOut" placeholder="Check Out" required="true" value=" <%= searchResthouse.resthouseData.checkOut %>">
+    </div>
+    <div class="form-group">
+    	<label class="sr-only" for="inputGuests">Check Out</label>
+		<input id="inputGuests"  type="number" min="1" class="form-control" placeholder="No. of Guests" required="false" value="<%=searchResthouse.resthouseData.guest%>">
+	</div>
+    <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+</div>
+<h2>Search : <%= searchResthouse.searchRes %> </h2>
+<h3>Resthouse name: <%= searchResthouse.searchRes[0]._id %></h3>
+
+
+
+<% include partials//footer %>
