@@ -31,4 +31,4 @@
 * [Ajinkya Deshpande](https://github.com/ajinkya1802)
 * [Apurva Deshpande](https://github.com/Apurvasd5)
 * [Saurav Adhe](https://github.com/saurava02)
-* [Vaibhavi Shukre]()
+* [Vaibhavi Shukre](https://github.com/vaibhavi11)
