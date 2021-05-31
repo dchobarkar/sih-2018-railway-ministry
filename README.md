@@ -26,7 +26,7 @@
   3. Select the guest house from available options and book according to your convenience.
 
 ### Contributors  
-* [Darshan Chobarkar](www.linkedin.com/in/dchobarkar)
+* [Darshan Chobarkar](https://www.linkedin.com/in/dchobarkar/)
 * [Ashutosh Gajre](https://github.com/codash98)
 * [Ajinkya Deshpande](https://github.com/ajinkya1802)
 * [Apurva Deshpande](https://github.com/Apurvasd5)
