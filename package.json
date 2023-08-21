@@ -1,18 +1,20 @@
 {
-  "name": "smart_india_hackathon_2018_railway_ministry",
+  "name": "sih-2018-railway-ministry",
+  "description": "digital platform for guest house reservation",
   "version": "1.0.0",
-  "description": "Digital solution of Guest house reservation for Indian Railway Ministry",
-  "keywords": ["SIH","Railways","Guest House"],
-  "author": "Keep It Simple Silly Team",
+  "author": "Darshan Chobarkar <contact@darshanwebdev.com> (https://darshanwebdev.com)",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "SIH",
+    "Railways",
+    "Guest House"
+  ],
   "main": "index.js",
-  
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-  "license": "ISC",
-
   "dependencies": {
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
